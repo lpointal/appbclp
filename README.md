@@ -2,7 +2,7 @@
 
 Scripts du livre [Apprendre à Programmer avec Python 3](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-en-python-avec-pyzo-et-jupyter-notebook) de B.Cordeau et L.Pointal, aux éditiond Dunod.
 
-Les programmes Python 3 disponibles ici illustrent les concepts présentés dans le livre et sont expliqués par section dans les chapitres concernés :
+Les programmes Python 3 disponibles ici illustrent les concepts présentés dans le livre, où ils sont expliqués par partie dans les sections concernés :
 
 - Chapitre 1, carte de France des 200 commune les moins densément peuplées.
 - Chapitre 7, requêtes SQL en Python.
