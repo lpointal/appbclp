@@ -11,3 +11,8 @@
 # Points de reprise IPython
 .ipynb_checkpoints
 
+
+# Résultats de tests d'exécution
+/applications/villes_france.csv
+/applications/villes_clean.csv
+/applications/figure.png
