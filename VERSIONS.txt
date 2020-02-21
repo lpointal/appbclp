@@ -1,0 +1,14 @@
+﻿Versions des exercices corrigés en ligne pour le livre « Python 3 - Apprendre à programmer en Python avec Pyzo et Jupyter Notebook ».
+
+
+VERSION 1.0 - 2017
+
+  * Version initiale
+
+VERSION 1.1 - 2018
+
+  * Nouveau tirage corrigé
+
+VERSION 2.0 - 2020
+
+  * Deuxième version

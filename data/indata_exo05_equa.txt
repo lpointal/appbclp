@@ -1,0 +1,7 @@
+un indice = c'est le début
+un test   = l'entrée suivant contient un caractère égal *dans* la valeur
+première  = y = 3x + 2
+seconde   = z = 3x + 2y - 5
+troisième = blabla
+quatrième = Une phrase qui peut être un peu longue.
+500000    = la moitié d'un million

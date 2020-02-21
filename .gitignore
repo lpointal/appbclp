@@ -1,0 +1,13 @@
+# Fichiers temporaires
+*~
+*.pyc
+*.pyo
+**/__pycache__/
+
+# Fichiers environnement
+.directory
+
+
+# Points de reprise IPython
+.ipynb_checkpoints
+
