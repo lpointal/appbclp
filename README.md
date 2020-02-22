@@ -1,5 +1,7 @@
 # Apprendre à Programmer avec Python 3
 
+**Travail en cours** — La nouvelle édition du livre est en cours de réalisation.
+
 Contenu en ligne pour le livre [Apprendre à Programmer avec Python 3](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-en-python-avec-pyzo-et-jupyter-notebook) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python-avec-pyzo-et-jupyter-notebook_0-4184158_9782100766369.html))
 
 Le fichier [Errata_2018_de_Python_3.pdf](./Errata_2018_de_Python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la première version de l'ouvrage.
@@ -37,16 +39,60 @@ Dans ``applications/``, les programmes Python 3 du livre, utilisés pour prés
 
 ## Exercices
 
-Le fichier notebook ``navigation.ipynb`` situé au premier niveau permet, grace à un environnement Jupyter, de naviguer entre les énoncés des exercices afin de les réaliser, et d'accéder aux corrections. Le répartoire ``data/``contient les données nécessaires pour les exercices.
+Les exercices sont organisés en deux séries de [Notebooks Jupyter](https://jupyter.org/), l'une contenant les énoncés et permettant de chercher à résoudre les exercices, l'autre reprenant les énoncés avec des exemples de correction.
 
-Dans ``exercices_du_livre/``, vous trouverez les énoncés des exercices issus du livre, ainsi que leurs corrections.
+### Mise en œuvre
 
-Dans ``exercices_supplementaires/``, une série d'exercices vous permettent de travailler sur les connaissances acquises à la lecture des chapitres de l'ouvrage.
+Voici une solution pour mettre en œuvre les exercices sur votre ordinateur personnel :
+
+1. Télécharger l'archive compressée [appbclp-master.zip][archive] qui contient les fichiers de ce projet GitHub, et la décompresser dans un répertoire (``appbclp-master``).
+
+1. Si ce n'est pas déjà fait, installer miniconda ([doc du livre][doclivre], [doc miniconda][docmini] *en anglais*), actuellement avec Python 3.7.
+
+1. Créer un environnement conda pour les exercides,  l'activer et y installer les paquets nécessaires :
+
+        conda create -n exospython python=3.7
+        conda activate exospython
+        conda install jupyter
+        conda install numpy matplotlib
+
+1. Fixer un mot de passe pour Jupyter :
+
+        jupyter notebook password
+        # …Saisie du mot de passe
+
+1. Changer le répertoire courant vers ``appbclp-master`` qui contient les exercices et lancer Jupyter, le serveur de notebooks  :
+
+        jupyter notebook
+
+1. Si votre butineur web ne s'est pas ouvert automatiquement, l'ouvrir avec l'adresse locale [http://localhost:8888/login][urllogin], se connecter en utilisant le mot de pase, puis sélectionner le Notebook ``navigation.ipynb``.
+
+*Note : pensez à mémoriser le mot de passe. Si vous le perdez vous pouvez en mettre en place un nouveau en re-exécutant la commande ``jupyter notebook password``.*
+
+*Note : si vous avez opté pour Anaconda, Jupyter a normalement été automatiquement installé, ainsi que les paquets scientifiques.*
+
+[archive]: https://github.com/lpointal/appbclp/archive/master.zip
+[doclivre]: https://perso.limsi.fr/pointal/python:installation:accueil
+[docmini]: https://docs.conda.io/en/latest/miniconda.html
+[urllogin]: http://localhost:8888/login
+
+### Organisation notebooks
+
+Le fichier notebook **navigation.ipynb**, situé au premier niveau, permet grace à l'environnement Jupyter de naviguer vers des collections d'autres notebooks contenant les exercices et les corrections. Le répertoire ``data/``contient les données nécessaires pour les exercices.
+
+Les exercices sont organisés en deux grandes collections :
+
+* Exercices supplémentaires, uniquement disponibles en ligne.
+* Exercices du livre.
+
+Pour chaque collection, les exercices sont regroupés suivant les chapitres du livre qui introduisent les notions manipulées. Il ya a à chaque fois deux Notebooks, l'un qui contient les énoncés et un espace pour la réponse, l'autre qui reprend les énoncés et propose des corrigés.
+
+
 
 
 <!--  Les compléments au livre sont disponibles sur [les + en ligne sur le site Dunod](https://www.dunod.com/sciences-techniques/python-3) : -->
 
 ## Licence
 
-**Note :** Les documents fournis ici sont sous la licence [Creative Common Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). Vous êtes autorisé à : partager (copier, distribuer et communiquer le matériel par tous moyens et sous tous formats) et adapter (remixer, transformer et créer à partir du matériel pour toute utilisation). Vous devez citer les auteurs et l'ouvrage lié et partager vos modifications sous la même licence. Voir le fichier LICENSE. 
+**Note :** Les documents fournis ici sont sous la licence [Creative Common Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). Vous êtes autorisé à : partager (copier, distribuer et communiquer le matériel par tous moyens et sous tous formats) et adapter (remixer, transformer et créer à partir du matériel pour toute utilisation). Vous devez citer les auteurs et l'ouvrage lié et partager vos modifications sous la même licence. Voir le fichier ``LICENSE``. 
 
