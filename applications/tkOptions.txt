@@ -1,0 +1,5 @@
+*font: Verdana 10 bold
+*Button*background: gray
+*Button*relief: raised
+*Button*width: 8
+*Entry*background: ivory
