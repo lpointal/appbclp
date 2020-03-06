@@ -30,11 +30,11 @@ Dans ``applications/``, les programmes Python 3 du livre, utilisés pour prés
 
 - Chapitre 9, application gestion de répertoire avec interface graphique.
 
-    Les scripts ``tkPhone_IHM.py`` et ``tkPhone.py``.
+    Les scripts ``tkPhone_IHM.py`` et ``tkPhone.py``, ainsi que le fichier tkphone.txt contenant quelques données d'exemple.
 
 - Chapitre 11, transformation géométrique d'une image.
 
-    Le script ``pythoon.py`` nécessite l'image ``pythoon.png``.
+    Le script ``pythoon.py`` ainsi que l'image `pythoon.png`.
 
 
 ## Exercices
