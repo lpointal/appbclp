@@ -77,7 +77,7 @@ class Allo(AlloIHM):
         if (nom == "") or (tel == ""):
             self.alerte("Erreur", "Il faut saisir nom et n° de téléphone.")
             return
-        self.phone_list.append(ligne_rep(nom, tel))
+        self.phone_list.append(LigneRep(nom, tel))
         self.phone_list.sort()
         self.maj_liste_selection([x.nom for x in self.phone_list])
         self.ajouter_fichier(nom, tel)
@@ -87,7 +87,7 @@ class Allo(AlloIHM):
         if messagebox.askyesno('Suppression', 'Êtes-vous sûr ?'):
             # maj de la liste
             nom, tel = self.phone_list[self.indexSelection()]
-            self.phone_list.remove(ligne_rep(nom, tel))
+            self.phone_list.remove(LigneRep(nom, tel))
             self.maj_liste_selection([x.nom for x in self.phone_list])
             self.enregistrer_fichier()
             self.efface_champs()

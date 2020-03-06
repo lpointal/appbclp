@@ -102,7 +102,7 @@ class AlloIHM:
 
     def efface_champs(self):
         """Effacement des champs de saisie."""
-        self.changeChamps('', '')
+        self.change_champs('', '')
 
     def valeurs_champs(self):
         """Retourne la saisie nom/tél actuelle."""

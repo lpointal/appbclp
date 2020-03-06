@@ -1,0 +1,6 @@
+Dirac, Paul	01 23 45 67
+Einstein, Albert	02 34 56 78 91
+Hélias, Pierre Jakez	03 45 67 89 12
+Monet, Claude	04 56 78 91 23
+Seurat, Georges	05 67 89 12 34
+Caillebotte, Gustave	06 78 91 23 45
