@@ -27,9 +27,9 @@ def figure(num_fig, image, titre):
     ax[num_fig].set_title(titre)
 # _END
 
-# Ouverture d'une image format .png dans le répertoire courant
+# Ouverture d'une image format .png dans le répertoire data
 # _BEG pythoon_02.py
-pythoon = io.imread("pythoon.png")
+pythoon = io.imread("../data/pythoon.png")
 # _END
 
 # Une planche de 3 figures
