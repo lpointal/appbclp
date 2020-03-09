@@ -29,7 +29,7 @@ def figure(num_fig, image, titre):
 
 # Ouverture d'une image format .png dans le répertoire data
 # _BEG pythoon_02.py
-pythoon = io.imread("../data/pythoon.png")
+pythoon = io.imread("pythoon.png")
 # _END
 
 # Une planche de 3 figures
