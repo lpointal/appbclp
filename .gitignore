@@ -16,3 +16,6 @@
 /applications/villes_france.csv
 /applications/villes_clean.csv
 /applications/figure.png
+
+# fichiers en écriture du chapitre 5
+out_*.txt
