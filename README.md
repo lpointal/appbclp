@@ -78,16 +78,12 @@ Voici une solution pour mettre en œuvre les exercices sur votre ordinateur pers
 
 ### Organisation notebooks
 
-Le fichier notebook **navigation.ipynb**, situé au premier niveau, permet grace à l'environnement Jupyter de naviguer vers des collections d'autres notebooks contenant les exercices et les corrections. Le répertoire ``data/``contient les données nécessaires pour les exercices.
+Le fichier notebook [**navigation.ipynb**](navigation.ipynb), situé au premier niveau, permet grace à l'environnement Jupyter de naviguer vers des collections d'autres notebooks contenant les exercices et les corrections. Le répertoire ``data/``contient les données nécessaires pour les exercices.
 
-Les exercices sont organisés en deux grandes collections :
+Les exercices sont organisés en quatre notebooks par chapitre, qui permettent de travailler sur les notions présentées :
 
-* Exercices supplémentaires, uniquement disponibles en ligne.
-* Exercices du livre.
-
-Pour chaque collection, les exercices sont regroupés suivant les chapitres du livre qui introduisent les notions manipulées. Il ya a à chaque fois deux Notebooks, l'un qui contient les énoncés et un espace pour la réponse, l'autre qui reprend les énoncés et propose des corrigés.
-
-
+* **Exercices du livre** et **solutions**.
+* **Exercices supplémentaires** (uniquement disponibles en ligne) et **solutions**.
 
 
 <!--  Les compléments au livre sont disponibles sur [les + en ligne sur le site Dunod](https://www.dunod.com/sciences-techniques/python-3) : -->
