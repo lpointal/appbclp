@@ -111,7 +111,7 @@ class AlloIHM:
         # Et on effectue une remise à jour de la liste afin d'avoir tous
         # les noms affichés.
         self.champs_rech.delete(0, tk.END)
-        self.cb_rechercher()
+        self.cb_rechercher()   # Le champs étant vidé, tout est affiché.
         self.change_champs('', '')
         
     def valeurs_champs(self):

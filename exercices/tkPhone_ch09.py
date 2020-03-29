@@ -86,6 +86,8 @@ class Allo(AlloIHM):
         nom, tel = self.phone_list[self.index_selection()]
         self.change_champs(nom, tel)
 
+    # MODIFICATION ch09
+    # Définition de la méthode de recherche.
     def cb_rechercher(self, event=None):
         """Recherche à partir d'un filtre."""
         rech = self.valeur_recherche().lower()
