@@ -1,7 +1,7 @@
 # coding: utf8
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#    file: tkPhone_IHM.py
+#    file: tkPhone_IHM_ch09.py
 # authors: Laurent Pointal <laurent.pointal@limsi.fr>
 #          Bob Cordeau <pycours@kordeo.eu>
 # license: Creative Commons Attribution-ShareAlike 4.0 International Public
@@ -15,12 +15,9 @@
 
 # Doc tkinter très complète : http://tkinter.fdex.eu/
 
-# _BEG tkPhone_IHM_01.py
 import tkinter as tk
 from tkinter import messagebox
-# _END
 
-# _BEG tkPhone_IHM_02.py
 class AlloIHM:
     """IHM de l'application 'répertoire téléphonique'."""
     def __init__(self):
@@ -30,13 +27,11 @@ class AlloIHM:
         self.root.title("Allo !")
         self.root.config(relief=tk.RAISED, bd=3)
         self.construire_widgets()
-# _END
 
     def boucle_enevementielle(self):
         self.champs_nom.focus()
         self.root.mainloop()
 
-# _BEG tkPhone_IHM_03.py
     def construire_widgets(self):
         """Configure et positionne les widgets"""
         # frame "valeurs_champs" (en haut avec bouton d'effacement)
@@ -89,9 +84,7 @@ class AlloIHM:
         b1.pack(side=tk.LEFT, pady=2)
         b2.pack(side=tk.LEFT, pady=2)
         b3.pack(side=tk.LEFT, pady=2)
-# _END
 
-# _BEG tkPhone_IHM_04.py
     # Méthodes d'échange d'informations application <==> GUI
     def maj_liste_selection(self, lstnoms):
         """Remplissage complet de la liste à sélection avec les noms."""
@@ -158,12 +151,8 @@ class AlloIHM:
         return self.champs_rech.get()
 
 
-# _END
-
 # auto-test ===================================================================
-# _BEG tkPhone_IHM_05.py
 if __name__ == '__main__':
     # instancie l'IHM, callbacks inactifs
     app = AlloIHM()
     app.boucle_enevementielle()
-# _END
