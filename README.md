@@ -4,7 +4,10 @@
 
 Contenu en ligne pour le livre [Apprendre à Programmer avec Python 3](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-en-python-avec-pyzo-et-jupyter-notebook) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python-avec-pyzo-et-jupyter-notebook_0-4184158_9782100766369.html))
 
+Le fichier [Errata_2020_de_python_3.pdf](./Errata_2020_de_python_3.pdf]) contient les correctifs pour les lecteurs possédans le premier tirage de la **seconde version** de l'ouvrage.
+
 Le fichier [Errata_2018_de_Python_3.pdf](./Errata_2018_de_Python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la première version de l'ouvrage.
+
 
 ## Documentation
 
