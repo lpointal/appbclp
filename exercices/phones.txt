@@ -1,0 +1,77 @@
+Bourdieu, Pierre	01 08 19 30 00
+Caillebotte, Gustave	06 78 91 23 45
+Champolion, Jean-François	23 12 17 90 00
+Curie, Marie	07 11 18 67 00
+Descartes, René	31 03 15 96 00
+Dirac, Paul	01 23 45 67
+Dolto, Françoise	06 11 19 08 00
+Durkheim, Émile	15 04 18 58 00
+Einstein, Albert	02 34 56 78 91
+Hélias, Pierre Jakez	03 45 67 89 12
+Joliot-Curie, Frédéric	19 03 19 00 00
+Krafft, Maurice	25 03 19 46 00
+Langevin, Paul	23 01 18 72 00
+Lavoisier, Antoine Laurent	26 08 17 43 00
+Leibowitch, Jacques	01 08 19 42 00
+Lévi-Strauss, Claude	28 11 19 08 00
+Monet, Claude	04 56 78 91 23
+Nostradamus	14 12 15 03 00
+Papin, Denis	22 08 16 47 00
+Pascal, Blaise	19 06 16 23 00
+Pasteur, Louis	27 12 18 22 00
+Schweitzer, Albert	14 01 18 75 00
+Seurat, Georges	05 67 89 12 34
+Tillion, Germaine	30 05 19 07 00
+Tocqueville, Alexis	29 07 18 05 00
+Victor, Paul-Émile	28 06 19 07 00
+Krafft, Katia	17 04 19 42 00
+Volta, Alessandro	18 02 17 45 00
+Ampère, André-Marie	20 01 17 75 00
+Huygens, Christian	14 04 16 29 00
+Dalton, John	06 09 17 66 00
+Mendeleïev, Dmitri	27 01 18 34 00
+Rutheford, Ernest	30 08 18 71 00
+Schrödinger, Erwin	12 08 18 87 00
+Galilée	15 02 15 64 00
+Ohm, Georges	16 03 17 89 00
+Charpak, Georges	08 03 19 24 00
+Hertz, Heinrich	22 02 18 57 00
+Newton, Isaac	25 12 16 42 00
+Joule, James Prescott	24 12 18 18 00
+Watt, James	19 01 17 36 00
+Perrin, Jean	30 09 18 70 00
+Kepler, Johannes	27 12 15 71 00
+Copernic, Nicolas	19 02 14 73 00
+Bohr, Niels	07 10 18 85 00
+Sorensen, Soren	09 01 18 68 00
+Brahé, Tycho	14 12 15 46 00
+Du Châtelet, Émilie	17 12 17 06 00
+Lepaute, Nicole-Reine	05 01 17 23 00
+Lavoisier, Marie-Anne	20 01 17 58 00
+Germain, Sophie	01 04 17 76 00
+Villepreux-Power, Jeanne	24 09 17 94 00
+Royer, Clémence	21 04 18 30 00
+Brès, Madeleine	26 11 18 42 00
+Leblois, Loise-Amélie	10 07 18 60 00
+Pelletier, Madeleine	18 04 18 74 00
+Girard-Mangin, Nicole	11 10 18 78 00
+Feytis-Cotton, Eugénie	13 10 18 81 00
+Pouzin, Yvonne	28 04 18 84 00
+Randoin, Lucie	11 05 18 85 00
+Chandon, Edmée	21 11 18 85 00
+Rouvière, Marguerite	27 06 18 89 00
+Paris, Marie-Louise	20 10 18 89 00
+Condat, Marthe	19 07 18 86 00
+Bertrand-Fontaine, Thérèse	15 10 18 95 00
+Guyot, Sébastienne	26 04 18 96 00
+Le Maître, Dorothée	01 09 18 96 00
+Conti, Anita	17 05 18 99 00
+Dubreil-Jacotin, Marie-Louise	07 07 19 05 00
+Cauchois, Yvette	10 12 19 08 00
+Perey, Marguerite	19 10 19 09 00
+Tonnelat, Marie-Antoinette	05 03 19 12 00
+Ferrand, Jacqueline	17 02 19 18 00
+Libermann, Paulette	14 11 19 19 00
+Serre, Josianne	17 12 19 22 00
+Delavault, Huguette	15 01 19 24 00
+Dieng-Kuntz, Rose	27 03 19 56 00
