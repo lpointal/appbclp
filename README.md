@@ -88,6 +88,7 @@ Les exercices sont organisés en quatre notebooks par chapitre, qui permettent d
 * **Exercices du livre** et **solutions**.
 * **Exercices supplémentaires** (uniquement disponibles en ligne) et **solutions**.
 
+Les exercices qui demandent de créer des modules ont leurs corrigés dans le répertoire `projets/`.
 
 <!--  Les compléments au livre sont disponibles sur [les + en ligne sur le site Dunod](https://www.dunod.com/sciences-techniques/python-3) : -->
 
