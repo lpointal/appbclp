@@ -86,7 +86,7 @@ class Allo(AlloIHM):
     def cb_supprimer(self):
         if messagebox.askyesno('Suppression', 'Êtes-vous sûr ?'):
             # maj de la liste
-            nom, tel = self.phone_list[self.indexSelection()]
+            nom, tel = self.phone_list[self.index_selection()]
             self.phone_list.remove(LigneRep(nom, tel))
             self.maj_liste_selection([x.nom for x in self.phone_list])
             self.enregistrer_fichier()
