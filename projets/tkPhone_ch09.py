@@ -28,6 +28,8 @@ class Allo(AlloIHM):
     def __init__(self, fic='phones.txt'):
         super().__init__()      # => constructeur de l'IHM classe parente.
         self.phone_list = []     # Liste des (nom, numéro tél) à gérer.
+        # MODIFICATION ch09        
+        self.selection_list = [] # Liste des (nom, numéro tél) sélectionnés
         self.fic = ""
         self.charger_fichier(fic)
 
@@ -44,8 +46,13 @@ class Allo(AlloIHM):
             with open(self.fic, "w", encoding="utf8"):
                 pass
         self.phone_list.sort()
-        self.maj_liste_selection([x.nom for x in self.phone_list])
-        for i in range(0, len(self.phone_list), 2):
+        # MODIFICATION ch09        
+        # Utilisation de la liste de sélection à la place de la liste
+        # issue du fichiers.
+        self.selection_list = self.phone_list  # On référence la même liste!
+        # Mise à jour de l'affichage de la liste.
+        self.cb_rechercher()
+        for i in range(0, len(self.selection_list), 2):
             self.liste_selection.itemconfigure(i, background='#f0f0ff')
 
     def enregistrer_fichier(self):
@@ -69,21 +76,34 @@ class Allo(AlloIHM):
             return
         self.phone_list.append(LigneRep(nom, tel))
         self.phone_list.sort()
-        self.maj_liste_selection([x.nom for x in self.phone_list])
+        # MODIFICATION ch09        
+        # Utilisation de la liste de sélection à la place de la liste
+        # issue du fichiers.
+        self.selection_list = self.phone_list   # On référence la même liste!
+        # Mise à jour de l'affichage de la liste.
+        self.cb_rechercher()  
         self.ajouter_fichier(nom, tel)
         self.efface_champs()
 
     def cb_supprimer(self):
         if messagebox.askyesno('Suppression', 'Êtes-vous sûr ?'):
             # maj de la liste
-            nom, tel = self.phone_list[self.index_selection()]
+            # MODIFICATION ch09        
+            # Important: ici la liste affichée correspond à la liste
+            # de sélection, on retrouve donc les éléments dans cette
+            # liste.
+            nom, tel = self.selection_list[self.index_selection()]
+            # On a récupéré nom, tel dans la liste de sélection,
+            # on les supprime dans la liste téléphonique aussi.
+            self.selection_list.remove(LigneRep(nom, tel))
             self.phone_list.remove(LigneRep(nom, tel))
-            self.maj_liste_selection([x.nom for x in self.phone_list])
+            # Mise à jour de l'affichage de la liste.
+            self.cb_rechercher()  
             self.enregistrer_fichier()
             self.efface_champs()
 
     def cb_afficher(self, event=None):
-        nom, tel = self.phone_list[self.index_selection()]
+        nom, tel = self.selection_list[self.index_selection()]
         self.change_champs(nom, tel)
 
     # MODIFICATION ch09
@@ -93,16 +113,16 @@ class Allo(AlloIHM):
         rech = self.valeur_recherche().lower()
         if not rech:
             # Pas de recherche, affichage complet.
-            self.maj_liste_selection([x.nom for x in self.phone_list])
+            self.selection_list = self.phone_list   # On référence la même liste!
         else:
-            # Construction de la liste des noms qui contiennent la
-            # chaine recherchée (on passe tout en minuscules pour les
-            # comparaisons).
-            nomsfiltres = [ x.nom for x in self.phone_list if rech in x.nom.lower() ]
-            # Le fait que la méthode issue de la classe parente prenne
-            # en paramètre la liste à afficher nous permet de l'utiliser
-            # simplement en lui fournissant la liste filtrée.
-            self.maj_liste_selection(nomsfiltres)
+            # Construction de la liste des références avec des noms 
+            # qui contiennent la chaine recherchée (on passe tout en 
+            # minuscules pour les comparaisons).
+            self.selection_list = [ x for x in self.phone_list  if rech in x.nom.lower() ]
+        # Le fait que la méthode issue de la classe parente prenne
+        # en paramètre la liste à afficher nous permet de l'utiliser
+        # simplement en lui fournissant la liste filtrée.
+        self.maj_liste_selection([x.nom for x in self.selection_list])
             
             
 # programme principal =========================================================
