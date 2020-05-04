@@ -1,7 +1,5 @@
 # Sommaire
 
----
-
 ## Préface
 
 ## Avant-propos
@@ -160,8 +158,6 @@
 
 ### Résumé et exercices
 
----
-
 # Annexes
 
 ## Interlude
@@ -174,14 +170,8 @@
 
 ## Résumé de la syntaxe
 
----
-
 # Bibliographie
 
----
-
 # Glossaire et lexique anglais/français
-
----
 
 # Index
