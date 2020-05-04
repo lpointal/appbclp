@@ -1,12 +1,12 @@
-# Apprendre à Programmer avec Python 3
+# Python 3 – Apprendre à Programmer dans l'écosystème Python
 
-**Travail en cours** — La nouvelle édition du livre est en cours de réalisation.
+**Travail en cours** — Les liens ci-dessous référencent l'édition préférence du livre.
 
 Contenu en ligne pour le livre [Apprendre à Programmer avec Python 3](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-en-python-avec-pyzo-et-jupyter-notebook) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python-avec-pyzo-et-jupyter-notebook_0-4184158_9782100766369.html))
 
 ![Couverture du livre](couverture-livre.png "Python 3 – Apprendre à programmer dans l'écosystème Python")
 
-[Sommaire du livre](sommaire)
+[Sommaire du livre](#user-content-sommaire-du-livre)
 
 Le fichier [Errata_2020_de_python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2020_de_python_3.pdf]) contient les correctifs pour les lecteurs possédans le premier tirage de la **seconde version** de l'ouvrage.
 
@@ -46,7 +46,7 @@ Dans ``applications/``, les programmes Python 3 du livre, utilisés pour prés
 
 ## Exercices
 
-Les exercices sont organisés en deux séries de [Notebooks Jupyter](https://jupyter.org/), l'une contenant les énoncés et permettant de chercher à résoudre les exercices, l'autre reprenant les énoncés avec des exemples de correction.
+Les exercices sont organisés en deux séries de [Notebooks Jupyter](https://jupyter.org/), l'une contenant les énoncés et permettant de chercher à résoudre les exercices, l'autre reprenant les énoncés avec des exemples de correction, regroupés par chapitre du livre.
 
 ### Mise en œuvre
 
@@ -99,4 +99,98 @@ Les exercices qui demandent de créer des modules ont leurs corrigés dans le r�
 ## Licence
 
 **Note :** Les documents fournis ici sont sous la licence [Creative Common Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). Vous êtes autorisé à : partager (copier, distribuer et communiquer le matériel par tous moyens et sous tous formats) et adapter (remixer, transformer et créer à partir du matériel pour toute utilisation). Vous devez citer les auteurs et l'ouvrage lié et partager vos modifications sous la même licence. Voir le fichier ``LICENSE``. 
+
+
+## Sommaire du livre
+
+
+*  **Sommaire**
+    * Préface
+    * Avant-propos
+    * Programmer en Python
+        * Mais pourquoi donc apprendre à programmer ?
+        * Mais pourquoi donc apprendre Python ?
+        * Comment passer du problème au programme
+        * Techniques de production des programmes
+        * Résumé et thèmes de réflexion
+    * La calculatrice Python
+        * Modes d’exécution d’un code Python
+        * Identificateurs et mots-clés
+        * Notion d’expression
+        * Variable et objet
+        * Types de données entiers
+        * Types de données flottants
+        * Chaînes de caractères
+        * Types binaires
+        * Entrées-sorties de base
+        * Comment trouver une documentation
+        * Résumé et exercices
+    * Contrôle du flux d’instructions
+        * Indentation significative et instructions composées
+        * Choisir
+        * Boucles
+        * Ruptures de séquences
+        * Résumé et exercices
+    * Conteneurs standard
+        * Séquences
+        * Listes
+        * Tuples
+        * Séquences de séquences
+        * Retour sur les références
+        * Tables de hash
+        * Dictionnaires
+        * Ensembles
+        * Itérer sur les conteneurs
+        * Résumé et exercices
+    * Fonctions et espaces de nommage
+        * Définition et syntaxe
+        * Passage des arguments
+        * Espaces de nommage
+        * Résumé et exercices
+    * Modules et packages
+        * Modules
+        * Packages
+        * Résumé et exercices
+    * Accès aux données
+        * Fichiers
+        * Travailler avec des fichiers et des répertoires
+        * Sérialisation avec `pickle` et `json`
+        * Bases de données relationnelles
+        * Micro-serveur web
+        * Résumé et exercices
+    *  programmation orientée objet
+        * Origine et évolution
+        * Terminologie
+        * Définition des classes et des instanciations d'objets
+        * Méthodes
+        * Méthodes spéciales
+        * Héritage et polymorphisme
+        * Notion de « conception orientée objet »
+        * Résumé et exercices
+    * La programmation graphique orientée objet
+        * Programmes pilotés par des événements
+        * Bibliothèque `tkinter`
+        * Deux exemples
+        * Résumé et exercices
+    * Programmation avancée
+        * Techniques procédurales
+        * Techniques objets
+        * Algorithmique
+        * Résumé et exercices
+    * L'écosystème Python
+        * *Batteries included*
+        * L'écosystème Python scientifique
+        * Bibliothèques tierces
+        * Documentation et tests
+        * Microcontrôleur et objets connectés
+        * Résumé et exercices
+*  **Annexes**
+    * Interlude
+    * Le codage des nombres et des caractères
+    * Les expressions régulières
+    * Les messages d'erreur de l'interpréteur
+    * Résumé de la syntaxe
+*  **Bibliographie**
+*  **Glossaire et lexique anglais/français**
+*  **Index**
 
