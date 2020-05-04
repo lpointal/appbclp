@@ -1,6 +1,6 @@
 # Python 3 – Apprendre à Programmer dans l'écosystème Python
 
-**Travail en cours** — Les liens ci-dessous référencent l'édition préférence du livre.
+**Travail en cours** — Les liens ci-dessous référencent l'édition précédente du livre.
 
 Contenu en ligne pour le livre [Apprendre à Programmer avec Python 3](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-en-python-avec-pyzo-et-jupyter-notebook) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python-avec-pyzo-et-jupyter-notebook_0-4184158_9782100766369.html))
 
