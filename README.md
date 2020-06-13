@@ -1,7 +1,5 @@
 # Python 3 – Apprendre à Programmer dans l'écosystème Python
 
-**Travail en cours** — Les liens ci-dessous référencent l'édition précédente du livre.
-
 Contenu en ligne pour le livre [Python 3 - Apprendre à programmer dans l'écosystème Python](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-dans-ecosysteme-python) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python_0-6383488_9782100809141.html))
 
 ![Couverture du livre](couverture-livre.png "Python 3 – Apprendre à programmer dans l'écosystème Python")
