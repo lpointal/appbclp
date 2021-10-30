@@ -19,7 +19,7 @@
 
 - page 184 : dans le premier paragraphe, il faut corriger «…, *numpy* fournit le type `np.ndarray`.» (et non *nd.array*).
 
-- page 86 : au milieu de la page, il manque le mot "peut" dans la phrase : «De même, on peut ajouter à `a` un vecteur-colonne de dimension (3, 1).».
+- page 186 : au milieu de la page, il manque le mot "peut" dans la phrase : «De même, on peut ajouter à `a` un vecteur-colonne de dimension (3, 1).».
 
 
 
