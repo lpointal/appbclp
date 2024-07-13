@@ -6,7 +6,7 @@ Contenu en ligne pour le livre [Python 3 - Apprendre à programmer dans l'éco
 
 [Sommaire du livre](#user-content-sommaire-du-livre)
 
-Le fichier [Errata_2020_de_python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2020_de_python_3.pdf) contient les correctifs pour les lecteurs possédans le premier tirage de la **seconde édition** de l'ouvrage (édition actuelle).
+Le fichier [Errata_2020_de_python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2020_de_python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la **seconde édition** de l'ouvrage (édition actuelle).
 
 Le fichier [Errata_2018_de_Python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2018_de_Python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la **première édition** de l'ouvrage.
 
