@@ -11,7 +11,7 @@ Une page dédiée fournit une introduction à l'utilisation du
 
 ========================================================================
 
-> [!INFO] 
+> [!NOTE]
 > Si vous avez l'espace nécessaire et un réseau assez rapide, l'installation de
 > [Anaconda](https://www.anaconda.com/download) permet d'installer en une
 > seule fois Python, matplotlib, et Spyder3 (IDE en remplacement de Pyzo).
@@ -96,7 +96,7 @@ permet, grâce aux annotations spécifiant les types (variables,
 paramètres, valeurs de retour...) d'indiquer de possibles erreurs lors
 de l'édition.
 
-> [!INFO]
+> [!NOTE]
 > Choix en **Mesures Physiques à l'IUT d'Orsay** : pour les TPs, 
 > l'IDE **Pyzo** est installé (il dispose
 > d'une traduction de son interface en Français, contrairement à thonny
@@ -189,7 +189,7 @@ la commande `path` (ou avec PowerShell `$Env.Path`).
 
 ### Connaître votre système Windows
 
-> [!INFO]
+> [!NOTE]
 > Nous considérons les versions 7 et 10 de Windows (les plus répandues).  
 > Note: Si vous utilisez une version de Windows XP, Vista, 7 ou 8, il est
 > fortement recommandé de faire une mise à jour vers Windows 10 si c'est
