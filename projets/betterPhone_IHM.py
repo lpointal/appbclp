@@ -67,17 +67,24 @@ class AlloIHM:
         # Frame pour regrouper le bouton d'effacement et la recherche.
         frame_h1 = ttk.Frame(frame_h)
         frame_h1.grid(row=2, column=0, columnspan=2, pady=3, padx=2)
+        frame_h1.columnconfigure(0, pad=40)
+        frame_h1.columnconfigure(1, weight=1)
+
         b = ttk.Button(frame_h1, text="Effacer ", command=self.efface_champs)
         b.grid(row=0, column=0, pady=3)
-        l = ttk.Label(frame_h1, text="Filtre:")
-        l.grid(row=0, column=1)
-        self.champs_rech = ttk.Entry(frame_h1)
+        
+        frame_h2 = ttk.Frame(frame_h1)
+        frame_h2.grid(row=0, column=1, sticky=tk.EW)
+        frame_h2.columnconfigure(1, weight=3)
+        l = ttk.Label(frame_h2, text="Filtre:")
+        l.grid(row=0, column=0)
+        self.champs_rech = ttk.Entry(frame_h2)
         # On déclenche la recherche automatiquement dès que le champs de 
         # filtrage est modifié (pas besoin de cliquer sur un bouton).
         self.champs_rech.bind('<KeyRelease>',self.cb_rechercher)
-        self.champs_rech.grid(row=0, column=2, columnspan=3, sticky=tk.EW, padx=5, pady=2)
-        b = ttk.Button(frame_h1, text="RàZ", command=self.efface_rechercher)
-        b.grid(row=0, column=5, pady=3)
+        self.champs_rech.grid(row=0, column=1, columnspan=3, sticky=tk.EW, padx=5, pady=2)
+        b = ttk.Button(frame_h2, text="RàZ", command=self.efface_rechercher)
+        b.grid(row=0, column=3, pady=3)
 
         # frame "liste" (au milieu)
         frame_m = ttk.Frame(self.root)

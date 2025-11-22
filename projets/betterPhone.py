@@ -20,6 +20,7 @@ from betterPhone_IHM import AlloIHM
 from tkinter import messagebox
 
 SEPARATEUR = '\t'
+# Amélioration lors des filtrages / recherche.
 # Lorsque lu en mémoire, on ajoute un champs filtre qui contient la valeur
 # du nom prête pour des recherches (sans accent, sans espace, en minuscules).
 LigneRep = namedtuple("LigneRep", "nom tel filtre")
