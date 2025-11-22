@@ -826,7 +826,11 @@ Python 3 est suffisante pour notre usage :
 > Python**, soit [avec conda](https://conda.io/docs/user-guide/tasks/manage-environments.html),
 > soit [avec virtualenv](https://virtualenv.pypa.io/en/latest/) (et
 > [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html))
-> ([article Sam&Max sur virtualenv](http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper/)).
+> ([article Sam&Max sur virtualenv](http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper/)).  
+> Note: Depuis la rédaction de cette page, l'outil de plus en plus conseillé est **uv**
+> de la société Astral (outil très rapide, permettant de remplacer les outils
+> de gestion d'environnement virtuels et d'installation de paquets Python)
+> [docs uv](https://docs.astral.sh/uv/).  
 > Et ensuite activer ces environnements au besoin suivant les projets que
 > l'on développe.
 
