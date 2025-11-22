@@ -9,7 +9,8 @@ les procédures
 Une page dédiée fournit une introduction à l'utilisation du
 [gestionnaire conda](/python/conda/).
 
-========================================================================
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 > [!NOTE]
 > Si vous avez l'espace nécessaire et un réseau assez rapide, l'installation de
@@ -182,7 +183,8 @@ la commande `path` (ou avec PowerShell `$Env.Path`).
 > Et ensuite activer ces environnements au besoin suivant les projets que
 > l'on développe.
 
-========================================================================
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 <a name="windows"></a>
 ## Windows
@@ -674,12 +676,13 @@ On passe donc par une installation avec l'installeur fourni sur le site
 de Pyzo, qui intègre directement la version de Python ainsi que les
 librairies nécessaires. \</WRAP\>
 
-========================================================================
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 <a name="mac_os"></a>
 ## Mac OS
 
-========================================================================
+------------------------------------------------------------------------
 
 ### Installation de Python via miniconda
 
@@ -721,7 +724,8 @@ width="800"}
 
 *Merci à David Grivel pour les copies d'écran.*
 
-========================================================================
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 <a name="linux"></a>
 ## Linux
@@ -805,64 +809,61 @@ Python 3 est suffisante pour notre usage :
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-\<WRAP center round alert 80%\> **Il ne faut pas installer avec `pip`
-des librairies Python à la place de celles fournies par votre
-distribution Linux**.
+> [!ALERT]
+> **Il ne faut pas installer avec `pip` des librairies Python à la place de 
+> celles fournies par votre distribution Linux**.
+> 
+> Les empaqueteurs ont fait un travail sur ces librairies afin que leurs
+> versions soient cohérentes entre elles et que votre système soit
+> fonctionnel. Écraser ces librairies avec d'autres versions risque de
+>casser cette cohérence et de rendre votre système instable ou
+> inutilisable.  
+> Donc, pas de <s>`sudo pip install trucmachin`</s>.
 
-Les empaqueteurs ont fait un travail sur ces librairies afin que leurs
-versions soient cohérentes entre elles et que votre système soit
-fonctionnel. Écraser ces librairies avec d'autres versions risque de
-casser cette cohérence et de rendre votre système instable ou
-inutilisable.\
-Donc, pas de ~~`sudo pip install trucmachin`~~. \</WRAP\>
-
-\<WRAP center round important 80%\> Du **danger d'installer des
-librairies utilisateurs par défaut** (pip install \--user)
-
-Lorsqu'on lance des scripts écrits en Python, celui-ci utilise une
-variable d'environnement, le `PYTHONPATH` dont l'usage est similaire
-au `PATH` : il contient la liste des répertoires dans lesquels Python va
-chercher les librairies (modules) lors des imports. En Python on accède
-à cette liste via la globale `sys.path`.\
-Dans cette liste de répertoires figure, généralement au début, un
-répertoire personnel dans lequel peuvent être installées des librairies
-pour votre seul usage. Ce répertoire est utilisé à l'installation
-d'une librairie soit lorsqu'on indique l'option `pip install --user`,
-soit lorsque pip détecte qu'il ne peut pas écrire dans les répertoires
-réservés du système (ce qui est une bonne chose).
-
-    >>> import sys, pprint as pp
-    >>> pp.pprint(sys.path)
-    ['',
-     '/usr/lib/python35.zip',
-     '/usr/lib/python3.5',
-     '/usr/lib/python3.5/plat-x86_64-linux-gnu',
-     '/usr/lib/python3.5/lib-dynload',
-     '/home/monlogin/.local/lib/python3.5/site-packages',
-     '/usr/local/lib/python3.5/dist-packages',
-     '/usr/lib/python3/dist-packages']
-
-Typiquement, dans l'exemple ci-dessus le *site-packages* de
-l'utilisateur est listé avant le *dist-packages* du système... les
-librairies installées de façon privée pour l'utilisateur sont donc
-utilisées prioritairement par rapport aux librairies fournies par le
-système. Les scripts que vous lancez vont prioritairement trouver et
-charger les librairies qui ont été installées pour votre seul usage dans
-votre répertoire personnel, il y a alors de forts risques que les
-versions installées ne soient pas compatibles et que les scripts
-génèrent des erreurs lors de leur exécution.
-
-Il vaut donc mieux mettre en place des **environnements virtuels
-Python**, soit [avec
-conda](https://conda.io/docs/user-guide/tasks/manage-environments.html),
-soit [avec virtualenv](https://virtualenv.pypa.io/en/latest/) (et
-[virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html))
-([article Sam&Max sur
-virtualenv](http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper/)).
-Et ensuite activer ces environnements au besoin suivant les projets que
-l'on développe.
-
-\</WRAP\>
+> [!IMPORTANT]
+> Du **danger d'installer des librairies utilisateurs par défaut** 
+> (pip install \--user)
+> 
+> Lorsqu'on lance des scripts écrits en Python, celui-ci utilise une
+> variable d'environnement, le `PYTHONPATH` dont l'usage est similaire
+> au `PATH` : il contient la liste des répertoires dans lesquels Python va
+> chercher les librairies (modules) lors des imports. En Python on accède
+> à cette liste via la globale `sys.path`.  
+> Dans cette liste de répertoires figure, généralement au début, un
+> répertoire personnel dans lequel peuvent être installées des librairies
+> pour votre seul usage. Ce répertoire est utilisé à l'installation
+> d'une librairie soit lorsqu'on indique l'option `pip install --user`,
+> soit lorsque pip détecte qu'il ne peut pas écrire dans les répertoires
+> réservés du système (ce qui est une bonne chose).
+> 
+>    >>> import sys, pprint as pp
+>    >>> pp.pprint(sys.path)
+>    ['',
+>     '/usr/lib/python35.zip',
+>     '/usr/lib/python3.5',
+>     '/usr/lib/python3.5/plat-x86_64-linux-gnu',
+>     '/usr/lib/python3.5/lib-dynload',
+>     '/home/monlogin/.local/lib/python3.5/site-packages',
+>     '/usr/local/lib/python3.5/dist-packages',
+>     '/usr/lib/python3/dist-packages']
+>
+> Typiquement, dans l'exemple ci-dessus le *site-packages* de
+> l'utilisateur est listé avant le *dist-packages* du système... les
+> librairies installées de façon privée pour l'utilisateur sont donc
+> utilisées prioritairement par rapport aux librairies fournies par le
+> système. Les scripts que vous lancez vont prioritairement trouver et
+> charger les librairies qui ont été installées pour votre seul usage dans
+> votre répertoire personnel, il y a alors de forts risques que les
+> versions installées ne soient pas compatibles et que les scripts
+> génèrent des erreurs lors de leur exécution.
+> 
+> Il vaut donc mieux mettre en place des **environnements virtuels
+> Python**, soit [avec conda](https://conda.io/docs/user-guide/tasks/manage-environments.html),
+> soit [avec virtualenv](https://virtualenv.pypa.io/en/latest/) (et
+> [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html))
+> ([article Sam&Max sur virtualenv](http://sametmax.com/les-environnement-virtuels-python-virtualenv-et-virtualenvwrapper/)).
+> Et ensuite activer ces environnements au besoin suivant les projets que
+> l'on développe.
 
 #### Installation de matplotlib
 
@@ -876,13 +877,11 @@ pour les distinguer des librairies de Python 2).
 
 ### Installation de Python avec Miniconda
 
-Il faut commencer par [télécharger
-Miniconda](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
+Il faut commencer par [télécharger Miniconda](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
 pour Linux, en sélectionnant l'installeur version Python 3.x, pour la
 plateforme 32 ou 64 bits suivant votre système d'exploitation.
 
-Une fois celui-ci disponible, les [instructions
-d'installation](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)
+Une fois celui-ci disponible, les [instructions d'installation](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 indiquent d'ouvrir un terminal et de lancer
 `bash Miniconda3-latest-Linux-x86_64.sh`. Il suffit ensuite de suivre
 les instructions.
@@ -925,17 +924,17 @@ utilisée).
 
 ## Pour finir...
 
-\<WRAP center round tip 80%\> En mesures physiques à l'IUT d'Orsay,
-nous ne disposons pas pour le moment de [Jupyter
-Notebook](http://jupyter.org/), qui permet de fournir un accès à Python
-via une interface web, de partager des documents (les notebooks)
-mélangeant code, texte, images, formules... — un peu comme des espaces
-multimédia de rédaction et programmation. C'est un bon outil pour
-apprendre les bases et partager des documents complets, des exercices,
-etc.\
-Chez vous, Jupyter Notebook peut être facilement installé via conda.\
-(pub) *Voir le livre co-rédigé avec B.Cordeau et édité dans la
-collection InfoSup chez Dunod : [Python 3 -- Apprendre à Programmer dans
-l'écosystème
-Python](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-dans-ecosysteme-python)*.
-\</WRAP\>
+> [!TIP]
+> En mesures physiques à l'IUT d'Orsay, nous ne disposons pas pour le 
+> moment de [Jupyter Notebook](http://jupyter.org/), qui permet de fournir 
+> un accès à Python via une interface web, de partager des documents 
+> (les notebooks) mélangeant code, texte, images, formules... — un peu 
+> comme des espaces multimédia de rédaction et programmation. 
+> C'est un bon outil pour apprendre les bases et partager des documents 
+> complets, des exercices, etc.  
+> Chez vous, Jupyter Notebook peut être facilement installé via conda.  
+> (pub) *Voir le livre co-rédigé avec B.Cordeau et édité dans la
+> collection InfoSup chez Dunod : 
+> [Python 3 -- Apprendre à Programmer dans
+> l'écosystème Python](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-dans-ecosysteme-python-0)*.
+
