@@ -1,19 +1,19 @@
 # Python 3 – Apprendre à Programmer dans l'écosystème Python
 
-Contenu en ligne pour le livre [Python 3 - Apprendre à programmer dans l'écosystème Python](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-dans-ecosysteme-python) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-076636-9](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-en-python_0-6383488_9782100809141.html))
+Contenu en ligne pour le livre [Python 3 - Apprendre à programmer dans l'écosystème Python](https://www.dunod.com/sciences-techniques/python-3-apprendre-programmer-dans-ecosysteme-python) de B.Cordeau et L.Pointal, aux éditiond Dunod ([ISBN:978-2-10-087612-9 ](https://www.lalibrairie.com/livres/python-3--apprendre-a-programmer-dans-l-ecosysteme-python_0-11875006_9782100876129.html?ctx=c6b1f8f13f465b70e9143eb3c9dae98a)). Ainsi que pour les anciennes éditions ([ISBN:978-2-10-076636-9]) en collection InfoSup.
 
-![Couverture du livre](couverture-livre.png "Python 3 – Apprendre à programmer dans l'écosystème Python")
+![Couverture du livre](couverture-livre.png "Python 3 – Apprendre à programmer dans l'écosystème Python")![Couverture en collection InfoSup](couverture-livre-collinfosup.png "Python 3 – Apprendre à programmer dans l'écosystème Python")
 
 [Sommaire du livre](#user-content-sommaire-du-livre)
 
 Le fichier [Errata_2020_de_python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2020_de_python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la **seconde édition** de l'ouvrage (édition actuelle).
 
-Le fichier [Errata_2018_de_Python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2018_de_Python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la **première édition** de l'ouvrage.
+Le fichier [Errata_2018_de_Python_3.pdf](https://github.com/lpointal/appbclp/raw/master/Errata_2018_de_Python_3.pdf) contient les correctifs pour les lecteurs possédant le premier tirage de la **première édition** de l'ouvrage, ainsi que celles du premier tirage hors collection.
 
 
 ## Documentation
 
-Dans ``documentation/``, les versions PDF du Mémento Python 3 ([source](https://perso.limsi.fr/pointal/python:memento)) et de l'Abrégé Dense Python 3.2 ([source](https://perso.limsi.fr/pointal/python:abrege)), ainsi qu'une petite note concernant l'utilisation de Jupyter pour faire fonctionner les exercices.
+Dans ``documentation/``, les versions PDF du Mémento Python 3 ([source](https://py3memento.lisn.fr/)) et de l'Abrégé Dense Python 3.2 ([source](https://perso.limsi.fr/pointal/python:abrege)), ainsi qu'une petite note concernant l'utilisation de Jupyter pour faire fonctionner les exercices.
 
 
 ## Applications
