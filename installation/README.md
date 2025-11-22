@@ -4,7 +4,7 @@ La procédure d'installation a été mise en ligne avec de nombreuses
 copies d'écran et liens — outre l'économie de papier, cela permet de
 corriger lorsque des problèmes remontent ou que des évolutions modifient
 les procédures
-([L.Pointal](/mailto/laurent.pointal@limsi.fr?subject=Page installation Python)).
+([L.Pointal](mailto:laurent.pointal@limsi.fr?subject=Page installation Python)).
 
 Une page dédiée fournit une introduction à l'utilisation du
 [gestionnaire conda](/python/conda/).
@@ -33,7 +33,7 @@ d'anciens programmes qui ne sont pas compatibles avec Python 3 et ne
 devrait pas être utilisée pour développer de nouveaux programmes.
 
 **Installation** : pour les détails, voir [Windows](#windows),
-[MacOS](#mac os) ou [Linux](#linux) suivant le système d'expoitation
+[MacOS](#mac_os) ou [Linux](#linux) suivant le système d'expoitation
 que vous utilisez. Les explications ci-après permettent de comprendre
 les différentes façons d'installer et les outils disponibles.
 
@@ -89,7 +89,7 @@ généralement allégées) :
 - `Komodo` dans sa version Edit.
 
 Il existe aussi des intégrations de Python dans des IDE plus généraux
-comme `Eclipse`, `VisualCode`, `NetBeans` ou `KDevelop`.
+comme `Eclipse`, `VisualCode`, `VisualStudio`, `NetBeans` ou `KDevelop`.
 
 Un plus pour [PyCharm](https://www.jetbrains.com/pycharm/download/) qui
 permet, grâce aux annotations spécifiant les types (variables,
@@ -119,8 +119,8 @@ en parallèle, avec chacune son lot distinct de librairies dans des
 versions sélectionnées, et qui ne se parasitent pas les unes les autres
 (utile lorsqu'on travaille sur différents projets).
 
-Le wiki du site python.org contient une page[Python
-Distributions](https://wiki.python.org/moin/PythonDistributions).
+Le wiki du site python.org contient une page 
+[Python Distributions](https://wiki.python.org/moin/PythonDistributions).
 
 On peut noter :
 
@@ -807,16 +807,16 @@ Python 3 est suffisante pour notre usage :
 > soit lorsque pip détecte qu'il ne peut pas écrire dans les répertoires
 > réservés du système (ce qui est une bonne chose).
 > 
->    >>> import sys, pprint as pp
->    >>> pp.pprint(sys.path)
->    ['',
->     '/usr/lib/python35.zip',
->     '/usr/lib/python3.5',
->     '/usr/lib/python3.5/plat-x86_64-linux-gnu',
->     '/usr/lib/python3.5/lib-dynload',
->     '/home/monlogin/.local/lib/python3.5/site-packages',
->     '/usr/local/lib/python3.5/dist-packages',
->     '/usr/lib/python3/dist-packages']
+>     >>> import sys, pprint as pp
+>     >>> pp.pprint(sys.path)
+>     ['',
+>      '/usr/lib/python35.zip',
+>      '/usr/lib/python3.5',
+>      '/usr/lib/python3.5/plat-x86_64-linux-gnu',
+>      '/usr/lib/python3.5/lib-dynload',
+>      '/home/monlogin/.local/lib/python3.5/site-packages',
+>      '/usr/local/lib/python3.5/dist-packages',
+>      '/usr/lib/python3/dist-packages']
 >
 > Typiquement, dans l'exemple ci-dessus le *site-packages* de
 > l'utilisateur est listé avant le *dist-packages* du système... les
