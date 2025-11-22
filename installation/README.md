@@ -15,7 +15,7 @@ Une page dédiée fournit une introduction à l'utilisation du
 > Si vous avez l'espace nécessaire et un réseau assez rapide, l'installation de
 > [Anaconda](https://www.anaconda.com/download) permet d'installer en une
 > seule fois Python, matplotlib, et Spyder3 (IDE en remplacement de Pyzo).
-> Une fois Anaconda installé, vous pouvez passer aux travaux pratiques...
+> Une fois Anaconda installé, vous pouvez passer aux travaux pratiques…
 
 ## Éléments communs
 
@@ -39,10 +39,10 @@ les différentes façons d'installer et les outils disponibles.
 
 Il est possible d'installer Python à partir de la distribution standard
 fournie sur le site de Python, puis de télécharger et d'installer
-séparément les outils complémentaires (`matplotlib`, `numpy`...) ainsi
+séparément les outils complémentaires (`matplotlib`, `numpy`…) ainsi
 qu'un environnement de développement (IDE - Integrated Development
 Environment) qui permet l'édition et l'exécution avec des outils
-d'assistance (aide à l'édition, documentation, débogage...).
+d'assistance (aide à l'édition, documentation, débogage…).
 
 Il est aussi possible d'utiliser des installeurs qui empaquettent
 Python avec de nombreux outils et/ou IDE et évitent d'avoir à réaliser
@@ -59,7 +59,7 @@ permet tout de même de programmer avec un minimum d'assistance
 > [!NOTE]
 > Note : il est tout à fait possible
 > d'utiliser simplement un éditeur de texte (`notepad++`, `sublimetext`,
-> `kate`, `gedit`... et pour les plus aventuriers `vim` ou `emacs`),
+> `kate`, `gedit`… et pour les plus aventuriers `vim` ou `emacs`),
 > accompagné d'un terminal ou console pour lancer l'exécution des
 > scripts.\
 > *Attention, à ne pas utiliser un « traitement de texte » comme MS-Word
@@ -93,7 +93,7 @@ comme `Eclipse`, `VS Code`, `VisualStudio`, `NetBeans` ou `KDevelop`.
 
 Un plus pour [PyCharm](https://www.jetbrains.com/pycharm/download/) qui
 permet, grâce aux annotations spécifiant les types (variables,
-paramètres, valeurs de retour...) d'indiquer de possibles erreurs lors
+paramètres, valeurs de retour…) d'indiquer de possibles erreurs lors
 de l'édition.
 
 > [!NOTE]
@@ -216,7 +216,7 @@ processeur* :
 ![Panneau de confiuration, accès aux infos système](media/winver-02-panneauconfig-systemesecurite.png)
 
 La fenêtre **Informations système générales** vous indique la version de
-Windows (*Édition Windows* : 7 ou 10 ou...) ainsi que sa déclinaison
+Windows (*Édition Windows* : 7 ou 10 ou…) ainsi que sa déclinaison
 (*Type du système* : 32 bits ou 64 bits). Notez ces informations.
 
 ![Fenêtre d'informations sur le système](media/winver-03-version-windows-7.png)
@@ -245,7 +245,7 @@ simplement les fichiers cachés.
 
 Certains fichiers sont en effet installés dans votre répertoire
 personnel, mais dans des répertoires normalement cachés, et leur accès
-est parfois nécessaire mais plus difficile lorsqu'on ne les voit pas...
+est parfois nécessaire mais plus difficile lorsqu'on ne les voit pas…
 
 **Pour ouvrir une console** (ou terminal) sous Windows, il suffit de
 démarrer le programme `cmd` à partir du menu de lancement :
@@ -271,7 +271,7 @@ Copies d'écran sous Windows 7.
 > 
 > Si l'installation de conda occupe vraiment trop de place, vous pouvez
 > essayer la commande `conda clean -a` pour supprimer tous les éléments
-> qui ne sont plus utiles (anciennes versions... voir la 
+> qui ne sont plus utiles (anciennes versions… voir la 
 > [doc conda clean](https://docs.conda.io/projects/conda/en/latest/commands/clean.html)
 > pour un nettoyage plus ciblé). 
 
@@ -347,7 +347,7 @@ déroulé](/python/installation/winconda-10-menuanaconda.png)
 > Si vous voulez installer **Pyzo** comme
 > IDE pour travailler, alors vous pouvez commencer par l'installer et
 > poursuivre ensuite l'installation des librairies directement dans
-> l'environnement de Pyzo (avec les commandes conda... ou pip... sans
+> l'environnement de Pyzo (avec les commandes conda… ou pip… sans
 > avoir à ouvrir le prompt Anaconda).
 
 Lancez Anaconda Prompt, et installez la bibliothèque `matplotlib` via
@@ -426,7 +426,7 @@ pas besoin), vous pourrez spécifier différentes options d'installation
     nécessite des droits d'administration sur la machine.
 
 Avant de lancer l'installation, l'installeur Python fait un petit
-récapitulatif, cliquez sur *Install Now*... :
+récapitulatif, cliquez sur *Install Now*… :
 
 ![Installeur Python - résumé](media/winpy-10-lancementinstallation.png)
 
@@ -499,7 +499,7 @@ Pyzo est un environnement de développement intégré (IDE) simple pour
 Python, ciblant plus spécialement l'enseignement. Il offre quelques
 outils pratiques permettant de découvrir le langage et la programmation
 (naviguer dans le code, afficher les variables, exécuter le programme en
-pas à pas...). Il fonctionne sur les trois plateformes les plus
+pas à pas…). Il fonctionne sur les trois plateformes les plus
 courantes (Windows, MaxOS, Linux). Il permet d'utiliser au choix les
 versions de Python installées avec l'installeur officiel ou bien avec
 l'installeur conda (avec lequel il s'intègre bien) — il est même
@@ -522,7 +522,7 @@ dialogue d'installation :
 
 ![Téléchargement installeur Pyzo](media/pyzo-03-installeur-pyzo.png)
 
-![Avertissement de sécurité exécution installeur Pyzo](mdeia/pyzo-04-avertissementsecurite.png)
+![Avertissement de sécurité exécution installeur Pyzo](media/pyzo-04-avertissementsecurite.png)
 
 ![Installeur Pyzo - dialogue Wellcome](media/pyzo-05-setupdialog.png)
 
@@ -587,7 +587,7 @@ standard pour tout le monde de Python 2.7) :
 
 ![Pyzo - menu liste des installations Python détectées](media/pyzo-14-choix-python-identifies.png)
 
-Sélectionnez le Python que vous avez installé pour les cours...
+Sélectionnez le Python que vous avez installé pour les cours…
 
 ![Pyzo - choix de notre installation de Python](media/pyzo-15-configuration-shell-simple.png)
 
@@ -715,7 +715,7 @@ exemple :
 
 (si le fichier d'informations os-release n'existe pas sur votre
 ordinateur, vous pouvez essayer avec `redhat-release`, `SuSE-release`,
-`mandrake-release`, `lsb-release`, `debian_version`...) Cela vous
+`mandrake-release`, `lsb-release`, `debian_version`…) Cela vous
 indique la distribution Linux qui est installée ainsi que la version de
 cette distribution.
 
@@ -744,7 +744,7 @@ d'utiliser le **gestionnaire de paquets** de votre plateforme, soit via
 une interface graphique, soit via la ligne de commandes : `apt` pour
 Debian/Ubuntu et dérivées, `rpm` pour RedHat/Fedora/Mandriva et
 dérivées, `pacman` pour Arch, `zypper` pour OpenSUSE, `portage` pour
-Gentoo... **consultez la documentation de votre distribution Linux pour
+Gentoo… **consultez la documentation de votre distribution Linux pour
 les explications sur ces commandes**.
 
 > [!IMPORTANT]
@@ -813,7 +813,7 @@ Python 3 est suffisante pour notre usage :
 >      '/usr/lib/python3/dist-packages']
 >
 > Typiquement, dans l'exemple ci-dessus le *site-packages* de
-> l'utilisateur est listé avant le *dist-packages* du système... les
+> l'utilisateur est listé avant le *dist-packages* du système… les
 > librairies installées de façon privée pour l'utilisateur sont donc
 > utilisées prioritairement par rapport aux librairies fournies par le
 > système. Les scripts que vous lancez vont prioritairement trouver et
@@ -887,13 +887,13 @@ utilisée).
 
 ========================================================================
 
-## Pour finir...
+## Pour finir…
 
 > [!TIP]
 > En mesures physiques à l'IUT d'Orsay, nous ne disposons pas pour le 
 > moment de [Jupyter Notebook](http://jupyter.org/), qui permet de fournir 
 > un accès à Python via une interface web, de partager des documents 
-> (les notebooks) mélangeant code, texte, images, formules... — un peu 
+> (les notebooks) mélangeant code, texte, images, formules… — un peu 
 > comme des espaces multimédia de rédaction et programmation. 
 > C'est un bon outil pour apprendre les bases et partager des documents 
 > complets, des exercices, etc.  
