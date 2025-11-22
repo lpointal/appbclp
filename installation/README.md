@@ -10,7 +10,6 @@ Une page dédiée fournit une introduction à l'utilisation du
 [gestionnaire conda](/python/conda/).
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 > [!NOTE]
 > Si vous avez l'espace nécessaire et un réseau assez rapide, l'installation de
@@ -184,10 +183,11 @@ la commande `path` (ou avec PowerShell `$Env.Path`).
 > l'on développe.
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 <a name="windows"></a>
 ## Windows
+
+------------------------------------------------------------------------
 
 ### Connaître votre système Windows
 
@@ -511,57 +511,49 @@ passer de l'une à l'autre.
 Le site [Pyzo](https://pyzo.org/) offre un petit [guide d'utilisation
 Pyzo](https://pyzo.org/guide.html).
 
-![](/python/installation/pyzo-01-page-pyzo.png){.align-center
-width="400"}
+![](media/pyzo-01-page-pyzo.png)
 
 Téléchargez Pyzo pour votre système d'exploitation sur la page
 <https://pyzo.org/start.html> :
 
-![](/python/installation/pyzo-01-page-quickstart.png){.align-center
-width="400"}
+![](media/pyzo-01-page-quickstart.png)
 
 Par exemple pour windows, téléchargez puis démarrer l'installeur (sans
 oublier de valider l'avertissement de sécurité) pour arriver au
 dialogue d'installation :
 
-![Téléchargement installeur
-Pyzo](/python/installation/pyzo-03-installeur-pyzo.png){width="300"}
-![Avertissement de sécurité exécution installeur
-Pyzo](/python/installation/pyzo-04-avertissementsecurite.png){width="300"}
-![Installeur Pyzo - dialogue
-Wellcome](/python/installation/pyzo-05-setupdialog.png){width="300"}
+![Téléchargement installeur Pyzo](media/pyzo-03-installeur-pyzo.png)
+
+![Avertissement de sécurité exécution installeur Pyzo](mdeia/pyzo-04-avertissementsecurite.png)
+
+![Installeur Pyzo - dialogue Wellcome](media/pyzo-05-setupdialog.png)
 
 Si vous ne voulez pas faire une installation pour tout le monde,
 modifiez l'emplacement d'installation  :
 
-![Installeur Pyzo - répertoire d'installation par
-défaut](/python/installation/pyzo-06-emplacement-installation.png){width="400"}
-![Installeur Pyzo - choix du répertoire
-d'installation](/python/installation/pyzo-06-emplacement-installation-changement-utilisateur1.png){width="300"}
-![Installeur Pyzo - validation répertoire
-alternatif](/python/installation/pyzo-06-emplacement-installation-changement-utilisateur2.png){width="400"}
+![Installeur Pyzo - répertoire d'installation par défaut](media/pyzo-06-emplacement-installation.png)
+
+![Installeur Pyzo - choix du répertoire d'installation](media/pyzo-06-emplacement-installation-changement-utilisateur1.png)
+
+![Installeur Pyzo - validation répertoire alternatif](media/pyzo-06-emplacement-installation-changement-utilisateur2.png)
 
 Dans les options complémentaires à l'installation, éventuellement
-**décochez** *Associate \".py\" extension* qui nécessite des droits
+**décochez** *Associate ".py" extension* qui nécessite des droits
 d'administration.
 
-![Installeur Pyzo - taches
-additonnelles](/python/installation/pyzo-07-options-installation.png){.align-center
-width="300"}
+![Installeur Pyzo - taches additonnelles](media/pyzo-07-options-installation.png)
 
 Avant de lancer l'installation, l'installeur Pyzo fait un petit
 récapitulatif, validez et installez :
 
-![Installeur Pyzo - résumé avant
-installation](/python/installation/pyzo-08-resume-installation.png){width="300"}
-![Installeur Pyzo -
-terminé](/python/installation/pyzo-09-installationterminee.png){width="300"}
+![Installeur Pyzo - résumé avant installation](media/pyzo-08-resume-installation.png)
+
+![Installeur Pyzo - terminé](media/pyzo-09-installationterminee.png)
 
 Sous Windows, après l'installation une nouvelle entrée a été ajoutée
 dans votre menu de programmes.
 
-![Menu windows application
-Pyzo](/python/installation/pyzo-10-menupyzo.png){.align-center}
+![Menu windows application Pyzo](media/pyzo-10-menupyzo.png)
 
 #### Configuration du shell Python de Pyzo
 
@@ -570,10 +562,9 @@ disponible — installation standard ou via conda — et dans un onglet
 outil shell vous indiquer ce qu'il a pu trouver. Si une installation
 via conda a été faite, il va la signaler en priorité.
 
-![Pyzo - premier
-lancement](/python/installation/pyzo-11-premier-lancement.png){width="300"}
-![Pyzo - indication des environnements Python
-trouvés](/python/installation/pyzo-12-indication-choix-python.png)
+![Pyzo - premier lancement](media/pyzo-11-premier-lancement.png)
+
+![Pyzo - indication des environnements Python trouvés](media/pyzo-12-indication-choix-python.png)
 
 Si vous avez installé Python avec conda, cliquez simplement sur *use
 this environment*, sinon cliquez sur *shell config* pour accéder au
@@ -583,9 +574,7 @@ Le **dialogue de configuration des shells** (ici `Shell configurations`,
 en anglais), permet de spécifier une ou plusieurs installations de
 Python qui seront utilisables via Pyzo :
 
-![Pyzo - dialogue configuration des shells
-Python](/python/installation/pyzo-13-dialogue-configuration-shell.png){.align-center
-width="500"}
+![Pyzo - dialogue configuration des shells Python](media/pyzo-13-dialogue-configuration-shell.png)
 
 Il suffit de spécifier un **nom** pour une configuration de shell,
 d'indiquer où est l'**exécutable Python** (via la flèche de menu Pyzo
@@ -598,58 +587,48 @@ une installation personnelle standard de Python 3.7.1, une installation
 personnelle via conda de Python 3.6.5, ainsi qu'une installation
 standard pour tout le monde de Python 2.7) :
 
-![Pyzo - menu liste des installations Python
-détectées](/python/installation/pyzo-14-choix-python-identifies.png){.align-center}
+![Pyzo - menu liste des installations Python détectées](media/pyzo-14-choix-python-identifies.png)
 
 Sélectionnez le Python que vous avez installé pour les cours...
 
-![Pyzo - choix de notre installation de
-Python](/python/installation/pyzo-15-configuration-shell-simple.png){.align-center
-width="500"}
+![Pyzo - choix de notre installation de Python](media/pyzo-15-configuration-shell-simple.png)
 
 Lorsqu'un shell Python a été sélectionné, l'outil *Shells* de Pyzo
 démarre une session interactive de Python avec la version sélectionnée.
 
-![Pyzo - prêt à fonctionner avec un shell
-interactif](/python/installation/pyzo-16-pyzo-pret.png){.align-center
-width="500"}
+![Pyzo - prêt à fonctionner avec un shell interactif](media/pyzo-16-pyzo-pret.png)
 
-\<WRAP center round tip 60%\> Vous pouvez ultérieurement modifier/
-reconfigurer les shells Python utilisables dans Pyzo en utilisant la
-commande de configuration accessible par le menu *Shell*. \</WRAP\>
+> [!TIP]
+> Vous pouvez ultérieurement modifier/reconfigurer les shells Python utilisables 
+> dans Pyzo en utilisant la commande de configuration accessible par le 
+> menu *Shell*.
 
 #### Configuration de Pyzo en français
 
 Dans le menu *Settings*, sous-menu *Select language*, choisissez
 *French*.
 
-![Pyzo - chois langue
-français](/python/installation/pyzo-17-choix-langue-francais.png){.align-center}
+![Pyzo - chois langue français](media/pyzo-17-choix-langue-francais.png)
 
 Redémarrez Pyzo, celui-ci utilise alors les menus en français (avec
 parfois des items encore en anglais, lorsque la traduction est un peu en
 retard sur l'évolution du logiciel) :
 
-![Pyzo - interface utilisateur en
-français](/python/installation/pyzo-18-interface-francais.png){.align-center
-width="500"}
+![Pyzo - interface utilisateur en français](media/pyzo-18-interface-francais.png)
 
 #### Outils de Pyzo
 
 Le menu *Outils* de Pyzo permet d'activer plusieurs panneaux
 d'outils :
 
-![Pyzo - menu outils
-développé](/python/installation/pyzo-19-menu-outils.png){.align-center}
+![Pyzo - menu outils développé](media/pyzo-19-menu-outils.png)
 
 Parmi ces outils il est intéressant d'activer le **Workspace**, qui
 permet de lister les *noms* définis dans l'environnement Python
-(variables, fonctions...) ainsi que d'afficher les *valeurs* associées
+(variables, fonctions…) ainsi que d'afficher les *valeurs* associées
 et leur *type*.
 
-![Pyzo - workspace ouvert avec quelques
-noms](/python/installation/pyzo-20-outil-workspace.png){.align-center
-width="500"}
+![Pyzo - workspace ouvert avec quelques noms](media/pyzo-20-outil-workspace.png)
 
 Sous Windows, l'installation de Pyzo occupe environ 47 Mio sur le
 disque dur.
@@ -668,15 +647,14 @@ et/ou
 
     conda list
 
-\<WRAP center round tip 80%\> L'installation de Pyzo (et PySide pour
-l'interface graphique Qt) à partir de `pip` échoue avec Python 3.7 car
-le PySide disponible en ligne par ce moyen n'est à ce jour compatible
-que jusqu'à Python 3.4.\
-On passe donc par une installation avec l'installeur fourni sur le site
-de Pyzo, qui intègre directement la version de Python ainsi que les
-librairies nécessaires. \</WRAP\>
+> [!TIP]
+> L'installation de Pyzo (et PySide pour l'interface graphique Qt) à partir 
+> de `pip` échoue avec Python 3.7 car le PySide disponible en ligne par ce 
+> moyen n'est à ce jour compatible que jusqu'à Python 3.4.  
+> On passe donc par une installation avec l'installeur fourni sur le site
+> de Pyzo, qui intègre directement la version de Python ainsi que les
+> librairies nécessaires.
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 <a name="mac_os"></a>
@@ -689,46 +667,38 @@ librairies nécessaires. \</WRAP\>
 La société Continuum Analytics fournit Anaconda, qui est un regroupement
 très volumineux de nombreuses librairies et applications pour utiliser
 Python dans un cadre scientifique ou technique. Les logiciels et
-librairies sont gérés avec un logiciel **conda** ([documentation
-conda](https://conda.io/docs/)).
+librairies sont gérés avec un logiciel **conda** 
+([documentation conda](https://conda.io/docs/)).
 
-![Guide installation
-Conda](/python/installation/macconda-01-guideinstall.png){.align-center
-width="200"}
+![Guide installation Conda](media/macconda-01-guideinstall.png)
 
-\<WRAP centeralign\>[Guide d'installation sur
-MacOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)\</WRAP\>
+[Guide d'installation sur MacOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 
 Ils fournissent une version plus réduite sous la forme de Miniconda,
 disponible sur le site <https://conda.io/miniconda.html> . Veillez à
 choisir l'installeur pour la dernière version de Python 3 et
 correspondant à votre version de MacOS (système, plateforme matérielle).
 
-![Choix plateforme
-Mac](/python/installation/macconda-02-choixplateforme.png){.align-center
-width="600"}
+![Choix plateforme Mac](media/macconda-02-choixplateforme.png)
 
 Si vous avez choisi Anaconda, il fournit de nombreux logiciels
 permettant de travailler avec Python, dont Jupyter.
 
-![Logithèque
-Anaconda](/python/installation/macconda-03-logithequeanaconda.png){.align-center
-width="400"}
+![Logithèque Anaconda](media/macconda-03-logithequeanaconda.png)
 
 En lançant Jupyter vous pouvez naviguer jusqu'à l'endroit où vous avez
 téléchargé les fichiers liés au livre et les ouvrir.
 
-![Accès aux ressources du
-livre](/python/installation/macconda-06-fichierslivre.png){.align-center
-width="800"}
+![Accès aux ressources du livre](media/macconda-06-fichierslivre.png)
 
 *Merci à David Grivel pour les copies d'écran.*
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 <a name="linux"></a>
 ## Linux
+
+------------------------------------------------------------------------
 
 ### Connaître votre système Linux
 
@@ -770,10 +740,10 @@ avec la famille Intel x86).
 
 ### Installation de Python avec le gestionnaire de paquets
 
-\<WRAP center round important 60%\> Cette façon de faire implique que
-vous avez les **droits d'administration** sur votre ordinateur. Si ce
-n'est pas le cas, passez à une installation par Miniconda (ci-après).
-\</WRAP\>
+> [!IMPORTANT]
+> Cette façon de faire implique que vous avez les **droits d'administration** 
+> sur votre ordinateur. Si ce n'est pas le cas, passez à une installation par 
+Miniconda (ci-après).
 
 Le plus simple pour installer Python 3 avec un système Linux est
 d'utiliser le **gestionnaire de paquets** de votre plateforme, soit via
@@ -783,10 +753,11 @@ dérivées, `pacman` pour Arch, `zypper` pour OpenSUSE, `portage` pour
 Gentoo... **consultez la documentation de votre distribution Linux pour
 les explications sur ces commandes**.
 
-\<WRAP center round important 60%\> Si la version de Python 3 fournie en
-standard par votre distribution Linux est trop ancienne, la solution la
-plus simple est de passer à une installation par Miniconda (ci-après).
-\</WRAP\>
+> [!IMPORTANT]
+> Si la version de Python 3 fournie en standard par votre distribution Linux 
+> est trop ancienne, la solution la plus simple est de passer à une installation 
+> par Miniconda (ci-après).
+
 
 Il n'est pas impossible que la version ainsi fournie soit antérieure à
 **Python 3.6**. Pour le vérifier, lancez la commande `python3` dans une
@@ -818,7 +789,7 @@ Python 3 est suffisante pour notre usage :
 > fonctionnel. Écraser ces librairies avec d'autres versions risque de
 >casser cette cohérence et de rendre votre système instable ou
 > inutilisable.  
-> Donc, pas de <s>`sudo pip install trucmachin`</s>.
+> Donc, pas de ~~`sudo pip install trucmachin`~~.
 
 > [!IMPORTANT]
 > Du **danger d'installer des librairies utilisateurs par défaut** 
@@ -899,23 +870,23 @@ sessions shell, il suffit de le reparamétrer avec la commande:
 ## Installation de Pyzo
 
 Il est possible de simplement télécharger l'archive compressée pour
-Linux, via le lien sur la page [Getting started with
-Pyzo](https://pyzo.org/start.html) (actuellement
+Linux, via le lien sur la page 
+[Getting started with Pyzo](https://pyzo.org/start.html) (actuellement
 pyzo-4.7.3-linux64.tar.gz). Votre environnement de travail doit vous
 permettre d'ouvrir et décompresser le contenu de ce fichier que vous
 pouvez installer où vous voulez. Il suffit ensuite d'ouvrir
 l'application `pyzo` contenue dans le répertoire d'installation.
 
-Ou sinon, suivre les indications [Install Pyzo on
-Linux](https://pyzo.org/install_linux.html) qui fait installer les
+Ou sinon, suivre les indications 
+[Install Pyzo on Linux](https://pyzo.org/install_linux.html) qui fait installer les
 paquets du système dont dépend Pyzo, puis utilise pip pour installer la
 dernière version de Pyzo (note: installation sudo + pip au niveau du
 systèmz, voir les risques indiqués précédement). Ou encore suivre les
 indications sur [Pyzo - install](https://pyzo.org/install.html).
 
 Note: la version actuelle (4.6.1) de Pyzo fournie sous la forme d'un
-fichier compressé d'archive a un [problème connu avec Ubuntu
-18.04](https://github.com/pyzo/pyzo/issues/546), pour le résoudre il
+fichier compressé d'archive a un 
+[problème connu avec Ubuntu 18.04](https://github.com/pyzo/pyzo/issues/546), pour le résoudre il
 suffit de supprimer le fichier `pyzo-4.6.1/lib/libz.so.1` fourni dans
 l'archive (la librairie fournie par le système est alors normalement
 utilisée).
