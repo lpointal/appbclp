@@ -4,7 +4,7 @@ La procédure d'installation a été mise en ligne avec de nombreuses
 copies d'écran et liens — outre l'économie de papier, cela permet de
 corriger lorsque des problèmes remontent ou que des évolutions modifient
 les procédures
-([L.Pointal](mailto:laurent.pointal@limsi.fr?subject=Page installation Python)).
+(<a href="mailto:laurent.pointal@limsi.fr?subject=Page installation Python">L.Pointal</a>).
 
 Une page dédiée fournit une introduction à l'utilisation du
 [gestionnaire conda](/python/conda/).
@@ -89,7 +89,7 @@ généralement allégées) :
 - `Komodo` dans sa version Edit.
 
 Il existe aussi des intégrations de Python dans des IDE plus généraux
-comme `Eclipse`, `VisualCode`, `VisualStudio`, `NetBeans` ou `KDevelop`.
+comme `Eclipse`, `VS Code`, `VisualStudio`, `NetBeans` ou `KDevelop`.
 
 Un plus pour [PyCharm](https://www.jetbrains.com/pycharm/download/) qui
 permet, grâce aux annotations spécifiant les types (variables,
@@ -186,8 +186,6 @@ la commande `path` (ou avec PowerShell `$Env.Path`).
 
 <a name="windows"></a>
 ## Windows
-
-------------------------------------------------------------------------
 
 ### Connaître votre système Windows
 
@@ -660,8 +658,6 @@ et/ou
 <a name="mac_os"></a>
 ## Mac OS
 
-------------------------------------------------------------------------
-
 ### Installation de Python via miniconda
 
 La société Continuum Analytics fournit Anaconda, qui est un regroupement
@@ -697,8 +693,6 @@ téléchargé les fichiers liés au livre et les ouvrir.
 
 <a name="linux"></a>
 ## Linux
-
-------------------------------------------------------------------------
 
 ### Connaître votre système Linux
 
