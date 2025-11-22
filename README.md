@@ -15,6 +15,11 @@ Le fichier [Errata_2018_de_Python_3.pdf](https://github.com/lpointal/appbclp/raw
 
 Dans ``documentation/``, les versions PDF du Mémento Python 3 ([source](https://py3memento.lisn.fr/)) et de l'Abrégé Dense Python 3.2 ([source](https://perso.limsi.fr/pointal/python:abrege)), ainsi qu'une petite note concernant l'utilisation de Jupyter pour faire fonctionner les exercices.
 
+## Installation
+
+Dans ``installation/``, la reprise de l'installation de Python (anciennement sur le site pages perso de L.Pointal au LIMSI).
+
+
 
 ## Applications
 
